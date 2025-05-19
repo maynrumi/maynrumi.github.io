@@ -1,0 +1,191 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Mayn's Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">MAYN</a></h1>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Menu</h2>
+							<ul class="links">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="generic.html">Projects</a></li>
+								<!--<li><a href="elements.html">Elements</a></li>-->
+								
+							</ul>
+							<a href="#" class="close">Close</a>
+						</div>
+					</nav>
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+						<header>
+							<div class="inner">
+								<h2>Projects</h2>
+								<p>All the projects are created by Mr. Mayn</p>
+							</div>
+						</header>
+
+						<!-- Content -->
+							<div class="wrapper">
+								<div class="inner">
+
+									<h3 class="major">All Projects</h3>
+									<article>
+										<a href="#" class="image"><img src="images/forecast_img.png" alt="cars" /></a>
+											<h3 class="major">COMPARING MACHINE LEARNING AND TECHNICAL ANALYSIS FOR PREDICTING SHORT-TERM STOCK PRICES</h3>
+											<p>Dissertation Project – Dublin - May 2025</p>
+											<p>Developed and evaluated machine learning models (SGDRegressor, SVR, RandomForestRegressor, XGBoost) and 
+												technical analysis indicators (moving averages, RSI, MACD, Bollinger Bands) to predict short-term stock prices.
+												</p>
+											<p> Data Processing: Preprocessed 11 years of historical stock data (2014–2025) from FactSet for NASDAQ stocks (AAPL, 
+												MSFT, NVDA, AMZN, GOOGL), Singapore stocks (DBS, OCBC, UOB, Singtel, Jardine), and indices (DJIA, FTSE 100), using 
+												pandas for cleaning and MinMaxScaler, StandardScaler for normalization.
+												</p>
+											<p> Feature Engineering: Calculated technical indicators and lagged prices as predictive features, splitting data into 10-year 
+												training (2014–2024) and 1-year test (2024–2025) sets with TimeSeriesSplit to prevent look-ahead bias.
+												</p>
+											<p> Model Optimization: Tuned hyperparameters using GridSearchCV, achieving superior performance with SGDRegressor 
+												(R² > 0.99, RMSE as low as 0.77 for NVDA) compared to technical analysis (R² ≤ 0.87).
+												</p>
+											<p>Deployment: Built and deployed a web application using Streamlit (accessible at maynstockprediction.streamlit.app), 
+												enabling real-time stock price predictions for end users.
+												</p>
+											<p>Key Outcome: Demonstrated machine learning’s significant edge over traditional methods, providing actionable 
+												insights for traders to optimize short-term strategies.
+												</p>
+										<a href="https://maynstockprediction.streamlit.app/" target="_blank" class="special">Learn more</a>
+									</article>
+									<article>
+										<a href="#" class="image"><img src="images/carpicture.jpg" alt="cars" /></a>
+										<h3 class="major">STATISTICAL REGRESSION ANALYSIS ON PREDICTING USED CAR PRICE IN IRELAND</h3>
+										<p>Class Project – Dublin - June 2024</p>
+										<p>Tools Used: pandas, SimpleImputer, StandardScaler, TargetEncoder, GridSearchCV, SGDRegressor, SVR, 
+											RandomForestRegressor, plotly. figure_factory, joblib.
+											</p>
+										<a href="https://colab.research.google.com/drive/1imuxuqfNLWX28uJ8aNMopA3x5oqhtivW#scrollTo=z9bLNPnibae2" target="_blank" class="special">Learn more</a>
+									</article>
+									<article>
+										<a href="#" class="image"><img src="images/srsdashboard.jpg" alt="SRS Dashboard" /></a>
+										<h3 class="major">Enhancing Order Management at SRS-Decathlon</h3>
+										<p>Office Project – Dhaka - 2023 - 2024</p>
+										<p>As a Data Analyst, I developed an Order Management Dashboard for SRS-Decathlon to enhance visibility of orders, shipments, production, and stock. 
+										This project aimed at streamlining operations for Decathlon's supplier, SRS, from Bangladesh. I collected and analyzed extensive data to provide actionable insights.</p>
+										<a href="https://docs.google.com/document/d/1GK2BxyePkAJrKokNMQ5AAXzRGf-uUgw-fI-QIUK9Xq4/edit?tab=t.0#heading=h.263bl6h0kb29" target="_blank" class="special">Learn more</a>
+									</article>
+									<article>
+										<a href="#" class="image"><img src="images/IrelandImmigrationDashboard.png" alt="" /></a>
+										<h3 class="major">The Immigration Story: Understanding Ireland's Trends</h3>
+										<p>Class Project – Dublin - December 2024</p>
+										<p>The Immigration Story: Understanding Ireland's Trends. Analyzed immigration data from Ireland's Dept of Justice. 
+											Created a dashboard showing trends, approval rates, and nationalities using Python and Pandas. </p>
+										<a href="https://public.tableau.com/app/profile/md.mayn.uddin/viz/IrelandImmigrationOutlook/IrelandImmigrationDashboard" target="_blank" class="special">Learn more</a>
+									</article>
+									<article>
+										<a href="#" class="image"><img src="images/webscraping.jpg" alt="" /></a>
+										<h3 class="major">Web scraping: GDP Data extraction and processing</h3>
+											<p>Learning Project – Dhaka - june 2023</p>
+											
+										<p>Developed a Python script to scrape and process GDP data from an archived Wikipedia page, focusing on the top 10 global economies. Utilized pandas for web scraping and data manipulation, converting million USD to billion USD with numpy for precise rounding. 
+											The result was a clean dataset saved as a CSV file, showcasing proficiency in data extraction and analysis technologies. <br>
+											Tools Used: Python, Pandas, Numpy
+										</p>
+										<a href="https://github.com/maynrumey/Web-scrapping-GDP-Data-extraction-and-processing/blob/main/Project-GDP%20Data%20extraction%20and%20processing.ipynb" target="_blank" class="special">Learn more</a>
+									</article>
+									
+									<!-- <h3 class="major">Vitae phasellus</h3>
+									<p>Cras mattis ante fermentum, malesuada neque vitae, 
+										auctor laoreet.</p> -->
+
+									<!-- <section class="features">
+										<article>
+											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
+											<h3 class="major">Sed feugiat lorem</h3>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
+											<a href="#" class="special">Learn more</a>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
+											<h3 class="major">Nisl placerat</h3>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
+											<a href="#" class="special">Learn more</a>
+										</article>
+									</section> -->
+
+								</div>
+							</div>
+
+					</section>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="inner">
+							<h2 class="major">Get in touch</h2>
+							<p>To contact me, Please send email, text message or direct Call. Thanks a million</p>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="email" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="4"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+							<ul class="contact">
+								<li class="icon solid fa-home">
+									Dublin, Ireland<br />
+								
+								</li>
+								<li class="icon solid fa-phone">(+353) 0892147206</li>
+								<li class="icon solid fa-envelope"><a href="#">maynrumey@gmail.com</a></li>
+								<li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/maynrumey/">Find me on linkedin</a></li>
+								<li class="icon solid fa-chart-line"><a href="https://public.tableau.com/app/profile/md.mayn.uddin/vizzes">Tableau Public Profile</a></li>
+								<li class="icon brands fa-github"><a href="https://github.com/maynrumey">Fine me on Github</a></li>
+							
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Mayn Inc. All rights reserved.</li><li>Design: <a href="https://www.linkedin.com/in/maynrumey/">MAYN</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
